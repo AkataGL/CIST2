@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:  1400px;
+    margin: 0 auto;
+    font-family: Verdrna, Geneva, sans-serif;
+}
+header{
+    width: 100%;
+    background-color: rgb(239, 231, 192);
+}
+section article h1{
+    font-size: 2em;
+    text-transform: capitalize;
+    letter-spacing: 0.25em;
+
+}
+section article p{
+    margin-top: 10px;
+}
+section article p img{
+    float: right;
+    height: 200px;
+    border-radius: 50% 50%;
+    box-shadow: 5px 5px 10px grey;
+}
+section article nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+section article nav img{
+    width: 30%;
+    height: 250px;
+    float: left;
+    margin-left: 30px;
+    border-radius: 10%;
+
+}
+section article.stories{
+    background-color: rgb(239, 231, 192);
+}
+section article.stories h1{
+    padding-left: 10px;
+}
+section article.stories div ul{
+    list-style: none;
+}
+article.stories div.left{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-color: rgb(239, 231, 192);
+    padding-left: 10px;
+}
+article.stories div.right{
+    width: 49.28%;
+    float: left;
+    height: 100%;
+    background-color: rgb(239, 231, 192);
+}
+
+
+footer {
+    clear: both;
+    border-top: black 1px solid;
+    text-align: center;
+}
+nav.horizontal ul{
+    list-style: none;
+    width: 100%;
+}
+nav.horizontal ul li a{
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    float: left;
+    color: black;
+    background-color: rgb(239, 231, 192);
+    height: 1.5em;
+    padding-top: 3px;
+}
+nav.horizontal ul li a:hover {
+    background-color: rgb(121, 69, 5);
+    color: white;
+}

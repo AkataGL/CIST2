@@ -1,0 +1,184 @@
+html {
+    background-color: rgb(111, 139, 94);
+}
+
+body {
+    outline: 1px solid rgb(51, 92, 51);
+    float: none;
+    margin: 0px auto;
+    width: 90%;
+    max-width: 1000px;
+    min-width: 800px;
+    background-color: white;
+    background-image: url(wcback.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    animation: show 2s;
+    position: relative;
+}
+
+header {
+    height: 100px;
+    border: 1px solid rgb(95, 112, 82);
+}
+
+header nav.horizontal {
+    width: 100%;
+}
+
+header nav.horizontal li {
+    background-color: rgb(65, 82, 52);
+    display: block;
+    float: left;
+    width: 14.28%;
+    outline: 1px solid black;
+    text-align: center;
+}
+
+header nav.horizontal li a {
+    color: white;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+#holes {
+    background: url(gray.png) repeat;
+    width: 15%;
+    float: left;
+    padding-bottom: 30px;
+}
+
+#holes h1 {
+    width: 85%;
+    padding-left: 15%;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(229, 144, 160);
+    color: white;
+    line-height: 200%;
+    margin-bottom: 20px;
+}
+
+#holes a{
+    color: white;
+    line-height: 1.7em;
+    margin-left: 20px;
+    display: block;
+}
+
+#main {
+    width: 58%;
+    margin-left: 2%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+#main p {
+    font-size: 16px;
+    margin: 20px 0px 0px 0px;
+}
+
+#main h2 {
+    font-size: 18px;
+    color: rgb(101, 101, 101);
+    letter-spacing: 3px;
+    margin: 20px 0px 0px 0px;
+}
+
+aside {
+    width: 25%;
+    float: left;
+}
+
+aside h1{
+    color: white;
+    font-size: 14.5px;
+    line-height: 1.75em;
+    text-align: center;
+    border-bottom: 1px green solid;
+    border-radius: 20px 20px 0px 0px;
+}
+
+aside p{
+    text-align: center;
+    font-size: 13px;
+    padding: 7px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+aside div{
+    border: 1px green solid;
+    border-radius: 20px;
+    margin: 30px 10px;
+    animation: move 2s;
+    position: relative;
+}
+
+#div1 h1{
+    background-color: rgb(109, 92, 205);
+    opacity: 0.8;
+}
+
+#div1 p{
+    background-color: rgb(177, 150, 226);
+    opacity: 0.8;
+}
+
+#div2 h1{
+    background-color: rgb(149, 155, 72);
+    opacity: 0.8;
+}
+
+#div2 p{
+    background-color: rgb(233, 239, 114);
+    opacity: 0.8;
+}
+
+#div3 h1{
+    background-color: rgb(207, 99, 212);
+    opacity: 0.8;
+}
+
+#div3 p{
+    background-color: rgb(232, 173, 234);
+    opacity: 0.8;
+}
+
+#div4 h1{
+    background-color: rgb(149, 187, 148);
+    opacity: 0.8;
+}
+
+#div4 p{
+    background-color: rgb(195, 218, 195);
+    opacity: 0.8;
+}
+
+@keyframes move{
+    from{
+        left: -600px;
+    }
+    to{
+        left: 0px;
+    }
+}
+
+@keyframes show{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+footer {
+    clear: left;
+    border-top: solid 1px rgb(101, 151, 101);
+    text-align: center;
+    font-size: 10px;
+    font-variant: small-caps;
+    color: rgb(101, 101, 101);
+    padding: 10px 0px;
+}

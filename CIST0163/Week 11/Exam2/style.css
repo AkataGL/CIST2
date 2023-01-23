@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Exam 2 Jason Li 11/15/2022*/
+iframe{
+    position: relative;
+    animation: move 5s;
+    border: none;
+}
+#main #links{
+    position: relative;
+    background-color: black;
+    box-shadow: black 2px 2px 20px, black 2px 2px 20px;
+    width: 140px;
+    top: 200px;
+    opacity: 55%;
+}
+#main #links ul{
+    list-style: none;
+    border: black 1px solid;
+    background-color: black;
+}
+#main #links ul li{
+    background-color: black;
+}
+#main #links ul li a{
+    text-decoration: none;
+    color: yellow;
+    opacity: 100%;
+    background-color: black;
+}
+#main #links ol{
+    background-color: black;
+}
+#main #links ol li{
+    background-color: black;
+}
+#main #links ol li ol li a{
+    background-color: black;
+}
+ol{
+    padding-top: 5px;
+    list-style: none;
+    color: yellow;
+}
+ol li ol{
+    margin-left: 10px;
+    background-color: black;
+    font-size: 0.5em;
+}
+ol li ol li a{
+    text-decoration: none;
+    color: yellow;
+}
+.level1{
+    background-color: rgb(149,154,165);
+}
+#features{
+    border-collapse: collapse;
+}
+#summary #features tbody tr td{
+    border: black 2px dashed;
+}
+nav ul{
+    list-style: none;
+    position: absolute;
+    z-index: 5;
+    width: 45%;
+    top: 45px;
+    right: 40px;
+}
+
+nav ul li a{
+    float: left;
+    text-decoration: none;
+    color: yellow;
+    background-color: green;
+    font-size: 0.9em;
+    text-align: center;
+    border: black 2px solid;
+    width: 28%;
+    border-radius: 20px;
+    height: 25px;
+    margin-left: 10px;
+}
+@keyframes move{
+    from{
+        right: 0px;
+    }
+    to{
+        right: -400px;
+    }
+}
+

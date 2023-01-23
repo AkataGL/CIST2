@@ -1,0 +1,144 @@
+﻿/*
+   Exam 1 Review 
+   Style Sheet
+*/
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+   width: 960px;
+   margin: 0 auto;
+}
+/*p{
+   padding-top: 10px;
+}
+*/
+header h1 img{
+   width: 960px;
+   margin: 0 auto;
+}
+
+nav.horizontal ul{
+   list-style: none;
+   width: 100%;
+   float: left;
+}
+
+nav.horizontal ul li a{
+   width: 16.6%;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   float: left;
+   background-color: white;
+   color: black;
+}
+
+nav.horizontal ul li a:hover{
+   background-color: #CDE4FE;
+   color: black;
+}
+
+nav.vertical {
+   width: 25%;
+   float: left;
+   background-color: #FFF3E6;
+   line-height: 250%;
+   /*outline: 1px red dashed;*/
+}
+
+nav.vertical h4{
+   letter-spacing: 3px;
+}
+
+nav.vertical ol {
+   list-style-type: upper-roman;
+   text-size-adjust: 70%;
+   margin-left: 10%;
+}
+
+nav.vertical ol li {
+   width: 100%;
+   float: left;
+}
+
+nav.vertical ol li a {
+   color: blue;
+   text-decoration: none;
+   text-align: left;
+}
+
+nav.vertical ol li ol{
+   list-style-type: upper-latin;
+   margin-left: 15%;
+}
+
+section{
+   float: left;
+   width: 75%;
+   background-color: #CDE4FE;
+}
+
+section h1{
+   font-size: 1.5em;
+   color: rgb(107, 106, 106);
+   letter-spacing: 5px;
+}
+
+section article p#firstP::first-letter{
+   font-size: 200%;
+}
+
+section article{
+   width: 40%;
+   float: left;
+   margin-left: 10px;
+}
+
+section article h2{
+   font-size: 1.5em;
+   color: rgb(107, 106, 106);
+   letter-spacing: 5px;
+}
+
+section article ul{
+   width: 85%;
+   margin-left: 8%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+
+section article h3{
+   font-size: 1.5em;
+   color: rgb(107, 106, 106);
+   letter-spacing: 5px;
+}
+
+section aside{
+   margin-left: 10px;
+}
+
+section aside h3{
+   font-size: 1.5em;
+   color: rgb(107, 106, 106);
+   letter-spacing: 5px;
+}
+
+section aside img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+footer{
+   clear: both;
+   margin-top: px;
+   margin-bottom: 20px;
+}
+
+footer p{
+   text-align: center;
+   font-size: 80%;
+}

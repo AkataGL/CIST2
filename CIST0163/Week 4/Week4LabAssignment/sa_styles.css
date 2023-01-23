@@ -1,0 +1,101 @@
+* {
+    /* Reset all margins and paddings */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-color: antiquewhite;*/
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.closing {
+    text-align: right;
+    color: rgb(148, 51, 62);
+}
+
+nav {
+    /* outline: tomato 2px dashed;*/
+    width: 25%;
+    float: left;
+}
+
+nav ul {
+    background-color: rgb(248, 175, 175);
+    /*remove bullets*/
+    list-style-type: none;
+    line-height: 3.5em;
+}
+
+nav ul li a {
+    /*remove the hyperline underlines*/
+    text-decoration: none;
+    color: white;
+    padding-left: 1em;
+    /*make the list item clickable*/
+    display: block;
+}
+
+nav ul li:hover {
+    background-color: rgb(148, 51, 62);
+}
+
+section {
+    /*outline: yellow 2px dashed;*/
+    width: 70%;
+    float: left;
+    margin-left: 15px;
+}
+
+section h1 {
+    background-color: rgb(148, 51, 62);
+    color: white;
+    line-height: 1.7em;
+    font-size: 1.7em;
+    text-indent: 1em;
+    letter-spacing: 0.4em;
+}
+
+section h2 {
+    background-color: rgb(182, 134, 52);
+    color: white;
+    line-height: 1.7em;
+    font-size: 1.7em;
+    text-indent: 1em;
+    letter-spacing: 0.4em;
+}
+
+section ul {
+    list-style-image: url("flake.png");
+}
+
+section ul li {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+section p {
+    font-size: 0.9em;
+    margin: 10px 15px 10px 10px;
+}
+
+img#photo {
+    width: 40%;
+    float: right;
+}
+
+footer {
+    /*outline: violet 2px dashed;*/
+    /*footer is not floating*/
+    clear: both;
+}
+
+footer address {
+    text-align: center;
+    background-color: rgb(148, 51, 62);
+    color: white;
+    line-height: 2em;
+}

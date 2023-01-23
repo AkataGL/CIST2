@@ -1,0 +1,80 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+section h1{
+    font-size: 2em;
+    color: rgb(189, 131, 82);
+    letter-spacing: 2px;
+    font-family: "Andale Mono", Arial, sans-serif;
+}
+body{
+    font-family: "Al Nile", Arial, sans-serif;
+    width: 1000px;
+    margin: 0 auto; 
+}
+p{
+    padding-top: 10px;
+}
+section aside{
+    width: 50%;
+    float: right;
+    border-radius: 10px;
+    border: rgb(149, 91, 42) 4px solid;
+    color: rgb(189, 131, 82);
+    margin: 10px 10px 10px 10px;
+}
+section aside p{
+    margin: 10px;
+}
+section{
+    width: 70%;
+    float: left;
+}
+section li{
+    padding-top: 10px;
+}
+article{
+    width: 30%;
+    float: right;
+    background-color: rgb(215, 181, 151);
+}
+article p{
+    margin: 10px;
+}
+article div{
+    margin: 10px;
+    color: rgb(149, 91, 42);
+}
+
+footer{
+    clear: both;
+    border-top: rgb(149, 91, 42) 1px solid;
+    text-align: center;
+    font-style: italic;
+}
+section figure img{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+nav.horizontal ul{
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+nav.horizontal ul li a{
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 0.25%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    float: left;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+nav.horizontal ul li a:hover{
+    background-color: rgb(215, 181, 151);
+    color: rgb(189, 131, 82);
+}
